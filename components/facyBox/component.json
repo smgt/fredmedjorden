@@ -1,0 +1,9 @@
+{
+  "name": "facyBox",
+  "version": "0.0.0",
+  "commit": "63c6a5073e82822998a172d347ed74525266ee6d",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitbonsai/facyBox.git"
+  }
+}

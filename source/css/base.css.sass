@@ -1,0 +1,202 @@
+$font-serif: "ff-tisa-web-pro", "Georgia", serif
+$font-sans-serif: 'proxima-nova', "helvetica", sans-serif
+$menu-height: 50px
+$link-color: green
+
+body, html
+  font-size: 16px
+  line-height: 1.6
+  color: #262626
+
+body
+  background-color: #fff
+  font-family: $font-serif
+
+blockquote
+  font-style: italic
+  font-size: 1.5em
+  .author
+    font-size: 0.58em
+    font-style: normal
+    color: #888
+
+hr
+  border-top: 1px solid #ddd
+  margin: 2em 0
+
+.pull-right
+  float: right
+
+.pull-left
+  float: left
+
+a:link, a:visited, a:active, a:hover
+  color: $link-color
+  &.btn
+    background-color: $link-color
+    color: #fff
+    display: inline-block
+    padding: 10px 10px
+    text-decoration: none
+    font-family: $font-sans-serif
+    border-radius: 4px
+    &.btn-download
+      background-color: #e8e8e8
+      padding: 0 8px
+      color: #262626
+
+figure
+  width: auto
+  margin:
+    bottom: 1em
+  &.pull-right
+    margin-left: 1em
+  &.pull-left
+    margin-right: 1em
+  figcaption
+    max-width: 100%
+    font-family: $font-sans-serif
+    font-size: 0.75em
+    border:
+      left: 1px solid #ccc
+      right: 1px solid #ccc
+      bottom: 1px solid #ccc
+    background-color: #f4f4f4
+    text-align: center
+
+p
+  line-height: 1.6
+  margin-bottom: 1.6em
+  margin-top: 0
+
+h1,h2,h3,h4
+  font-family: $font-sans-serif
+  line-height: 1.1
+  margin:
+    top: 0
+    left: 0
+    right: 0
+
+h1
+  font-size: 2.25em
+  margin-bottom: 0.7em
+  padding-top: 0.7em
+
+h2
+  font-size: 1.5em
+  margin-bottom: 1.05em
+  padding-top: 1.05em
+
+h3
+  font-size: 1.25em
+  margin-bottom: 1.25em
+  .author
+    color: #aaa
+    font-family: $font-serif
+    font-size: 0.7em
+    font-weight: normal
+
+
+h4
+  font-size: 1.25em
+  margin: 3em 0 1.75em 0
+  position: relative
+  border-bottom: 3px solid $link-color
+  span
+    background-color: $link-color
+    color: #fff
+    height: 60px
+    width: 60px
+    line-height: 60px
+    text-align: center
+    display: block
+    position: absolute
+    left: -60px
+    top: -30px
+    border-radius: 100%
+
+#page-content
+  width: 590px
+  margin: $menu-height+40 auto 0 auto
+
+#page-footer
+  padding: 4em 0 2em 0
+  text-align: center
+  font-size: 80%
+  color: #aaa
+  font-family: $font-sans-serif
+
+#page-header
+  z-index: 1000
+  background-color: #eee
+  position: fixed
+  top: 0
+  height: $menu-height
+  width: 100%
+  font-family: "proxima-nova", "helvetica", sans-serif
+  border-bottom: 1px solid #ddd
+  .logo
+    opacity: 0.5
+    a:link, a:visited, a:active, a:hover
+      padding: 0
+      margin: 0
+  #page-menu
+    margin: 0 auto
+    width: 800px
+    text-align: center
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    font-size: 0px
+    li
+      font-size: 16px
+      display: inline-block
+      line-height: $menu-height - 2
+      padding: 0
+      margin: 0
+      body.aktuellt &.aktuellt,
+      body.historia &.historia,
+      body.stipendiater &.stipendiater,
+      body.rapporter &.rapporter,
+      body.styrelsen &.styrelsen,
+      body.ansok &.ansok
+        //background-color: #dfdfdf
+        background-color: $link-color
+        a:link, a:visited, a:active
+          color: #fff
+      a:link, a:visited, a:active, a:hover
+        text-decoration: none
+        color: #888
+        padding: 0 1em
+        display: inline-block
+        height: $menu-height
+        font-weight: bold
+
+dl.styrelsemedlem
+  display: inline-block
+  margin: 1em 0
+  dt
+    height: 80px
+    width: 80px
+    display: block
+    float: left
+    img
+      border-radius: 100%
+  dd
+    padding-left: 70px
+    display: block
+    width: 400px
+
+.stipendiater
+  .years
+    font-size: 0.75em
+    margin-bottom: 1em
+    a
+      text-decoration: none
+      background-color: $link-color
+      color: #fff
+      border-radius: 4px
+      padding: 3px 5px
+      margin: 4px 4px
+

@@ -1,0 +1,42 @@
+---
+title: Styrelsen
+body_class: styrelsen
+---
+# Stipendiefondens styrelse
+
+Om du vill kontakta styrelsen skicka ett e-post till  <a href="mailto:stipendium@fredmedjorden.se">stipendium@fredmedjorden.se</a></p>
+
+<dl class="styrelsemedlem">
+  <dt><img src="/images/karin.png" width="80" height="80"></dt>
+  <dd><strong>Karin Sahlstr&ouml;m</strong></dd>
+  <dd>Marieberg, 342 34 Alvesta (ordf)</dd>
+  <dd><a href="mailto:karin.sahlstrom@swipnet.se">karin.sahlstrom@swipnet.se</a></dd>
+</dl>
+
+<dl class="styrelsemedlem">
+  <dt><img src="/images/noname.png" width="80" height="80"></dt>
+  <dd><strong>Eva Christiansson</strong></dd>
+  <dd>L&ouml;nshult, 360 30 Lammhult</dd>
+  <dd><a href="mailto:eva_christiansson@komvux.vaxjo.se">eva_christiansson@komvux.vaxjo.se</a></dd>
+</dl>
+
+<dl class="styrelsemedlem">
+  <dt><img src="/images/susanne.png" width="80" height="80"></dt>
+  <dd><strong>Susanne Schlecker</strong></dd>
+  <dd>Elmedalsg. 4, 352 35 V&auml;xj&ouml;</dd>
+  <dd><a href="mailto:thorn.schlecker@hotmail.com">thorn.schlecker@hotmail.com </a></dd>
+</dl>
+
+<dl class="styrelsemedlem">
+  <dt><img src="/images/ingegerd.png" width="80" height="80"></dt>
+  <dd><strong>Ingegerd Vejvi</strong></dd>
+  <dd>Hallg&aring;rden, 360 30 Lammhult</dd>
+  <dd><a href="mailto:ivejvi@blixtmail.se">ivejvi@blixtmail.se</a></dd>
+</dl>
+
+<dl class="styrelsemedlem">
+  <dt><img src="http://www.gravatar.com/avatar/88bbe05fec72c1eba7c39d780c3bccae.png" width="80" height="80"></dt>
+  <dd><strong>Simon Gate</strong></dd>
+  <dd>Algatan 36B, 214 46 Malmö</dd>
+  <dd><a href="mailto:simon@smgt.me">simon@smgt.me</a></dd>
+</dl>
