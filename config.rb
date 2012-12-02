@@ -119,7 +119,11 @@ set :markdown, :fenced_code_blocks => true,
                :smartypants => true
 
 
-  activate :relative_assets
+
+activate :relative_assets
+activate :directory_indexes
+
+set :relative_links, true
 
 # Build-specific configuration
 configure :build do
