@@ -1,7 +1,7 @@
 $font-serif: "ff-tisa-web-pro", "Georgia", serif
 $font-sans-serif: 'proxima-nova', "helvetica", sans-serif
 $menu-height: 50px
-$link-color: green
+$link-color: #649b4a
 
 body, html
   font-size: 16px
@@ -135,13 +135,15 @@ h4
 
 #page-header
   z-index: 99
-  background-color: #eee
+  // background-color: #eee
+  background-color: #ff795d
   position: fixed
   top: 0
   height: $menu-height
   width: 100%
   font-family: "proxima-nova", "helvetica", sans-serif
   border-bottom: 1px solid #ddd
+  box-shadow: 0 1px 1px #fff
   .logo
     opacity: 0.5
     a:link, a:visited, a:active, a:hover
@@ -169,12 +171,14 @@ h4
       body.styrelsen &.styrelsen,
       body.ansok &.ansok
         //background-color: #dfdfdf
-        background-color: $link-color
+        // background-color: $link-color
+        background-color: #803b2d
         a:link, a:visited, a:active
           color: #fff
       a:link, a:visited, a:active, a:hover
         text-decoration: none
-        color: #888
+        // color: #888
+        color: #fff
         padding: 0 1em
         display: inline-block
         height: $menu-height
