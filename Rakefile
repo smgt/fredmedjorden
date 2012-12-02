@@ -38,6 +38,7 @@ namespace :publish do
       `git update-ref refs/heads/gh-pages #{csha}`
       `git push origin gh-pages`
     end
+    Rake::Task["cleanup"].invoke
   end
 
   desc "Deploy to http://fredmedjorden.smgt.me"
@@ -45,6 +46,7 @@ namespace :publish do
     sh "middleman build"
     # sh "scp -r build/* dbrails1.driftbolaget.se:/users/simongate/fredmedjorden/"
     sh "rsync -avz build/ -e ssh dbrails1.driftbolaget.se:/users/simongate/fredmedjorden/"
+    Rake::Task["cleanup"].invoke
   end
 end
 
