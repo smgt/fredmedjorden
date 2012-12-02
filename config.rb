@@ -105,6 +105,7 @@ end
 # end
 
 activate :sprockets
+activate :directory_indexes
 
 set :js_dir, "js"
 set :css_dir, 'css'
@@ -120,10 +121,10 @@ set :markdown, :fenced_code_blocks => true,
 
 
 
-activate :relative_assets
-activate :directory_indexes
+#activate :relative_assets
+#set :relative_links, true
+#
 
-set :relative_links, true
 
 # Build-specific configuration
 configure :build do
