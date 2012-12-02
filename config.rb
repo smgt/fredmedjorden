@@ -63,10 +63,14 @@ helpers do
 
       if opts[:thumbnail]
         content_tag :a, :href => opts[:image], :rel => "facybox" do
-          tag :img, :src => opts[:thumbnail], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
+          # tag :img, :src => opts[:thumbnail], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
+          image_tag opts[:thumbnail], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
         end
       else
-        content_tag :img, :src => opts[:image], :alt => opts[:label], :title => opts[:label], :width => opts[:width], :height => opts[:height] do
+        # content_tag :img, :src => opts[:image], :alt => opts[:label], :title => opts[:label], :width => opts[:width], :height => opts[:height] do
+        # end
+        content_tag :span do
+          image_tag opts[:image], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
         end
       end
 
