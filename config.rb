@@ -1,6 +1,3 @@
-require "rack/livereload"
-
-use Rack::LiveReload
 
 ###
 # Compass
@@ -110,7 +107,7 @@ set :css_dir, 'css'
 
 set :js_assets_paths, ["#{root}/components/", "#{root}/source/js/"]
 
-set :images_dir, 'img'
+set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
@@ -118,20 +115,21 @@ set :markdown, :fenced_code_blocks => true,
                :smartypants => true
 
 
+  activate :relative_assets
+
 # Build-specific configuration
 configure :build do
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
 
-
   # Enable cache buster
   # activate :cache_buster
 
   # Use relative URLs
-  # activate :relative_assets
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
@@ -140,4 +138,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+end
+
+configure :development do
+  require "rack/livereload"
+  use Rack::LiveReload
 end

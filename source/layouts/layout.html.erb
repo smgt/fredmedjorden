@@ -12,11 +12,9 @@
         <script type="text/javascript" src="//use.typekit.net/wiw7xkf.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/base.css">
-        <link rel="stylesheet" href="/css/facybox.css">
-        <script src="/js/modernizr.js"></script>
+        <%= favicon_tag 'favicon.ico' %>
+        <%= stylesheet_link_tag 'normalize','main','base','facybox' %>
+        <%= javascript_include_tag 'modernizr' %>
     </head>
     <body class="<%= current_page.data.body_class%>">
         <!--[if lt IE 7]>
@@ -33,7 +31,7 @@
               <li class="aktuellt"><a href="/aktuellt/">Aktuellt</a></li>
               <li class="historia"><a href="/historia/">Historia</a></li>
               <li class="stipendiater"><a href="/stipendiater/">Stipendiater</a></li>
-              <li class="logo"><a href="/"><img src="/images/logo-menu.png"></a></li>
+              <li class="logo"><a href="/"><%= image_tag "logo-menu.png" %></a></li>
               <li class="rapporter"><a href="/rapporter/">Rapporter</a></li>
               <li class="styrelsen"><a href="/styrelsen/">Styrelsen</a></li>
               <li class="ansok"><a href="/ansok/">Ansök</a></li>
@@ -47,7 +45,7 @@
           Flory Gates Stiftelse, Fred med Jorden 2012
         </div>
       </div>
-      <script src="/js/main.js"></script>
+      <%= javascript_include_tag "main" %>
       <!--
       <script type="text/javascript">
         var _gauges = _gauges || [];
