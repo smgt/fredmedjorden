@@ -5,6 +5,7 @@ task :cleanup do
 end
 
 namespace :publish do
+
   desc "Publish to http://smgt.me/fredmedjorden"
   task :staging => [:cleanup] do
     FileUtils.rm_r('build') if File.exist?('build')
@@ -37,6 +38,13 @@ namespace :publish do
       `git update-ref refs/heads/gh-pages #{csha}`
       `git push origin gh-pages`
     end
+  end
+
+  desc "Deploy to http://fredmedjorden.smgt.me"
+  task :smgt => [:cleanup] do
+    sh "middleman build"
+    # sh "scp -r build/* dbrails1.driftbolaget.se:/users/simongate/fredmedjorden/"
+    sh "rsync -avz build/ -e ssh dbrails1.driftbolaget.se:/users/simongate/fredmedjorden/"
   end
 end
 
