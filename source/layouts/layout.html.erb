@@ -42,23 +42,10 @@
           <%= yield %>
         </div>
         <div id="page-footer">
-          Flory Gates Stiftelse, Fred med Jorden 2012
+          Flory Gates Stiftelse, Fred med Jorden <%= Time.now.year %>
         </div>
       </div>
       <%= javascript_include_tag "main" %>
-      <script type="text/javascript">
-        var _gauges = _gauges || [];
-        (function() {
-          var t   = document.createElement('script');
-          t.type  = 'text/javascript';
-          t.async = true;
-          t.id    = 'gauges-tracker';
-          t.setAttribute('data-site-id', '4f5e59b8613f5d497c00005f');
-          t.src = '//secure.gaug.es/track.js';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(t, s);
-        })();
-      </script>
       <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-149323-13']);
