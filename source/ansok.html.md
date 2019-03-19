@@ -6,12 +6,15 @@ body_class: ansok
 
 Stipendiefonden FRED MED JORDEN skall stimulera och st&ouml;dja personer, 
 i f&ouml;rsta hand kvinnor, som v&aring;rdar sig om modern&auml;ringen 
-genom att yrkesm&auml;ssigt driva jordbruk eller handelstr&auml;dg&aring;rd 
+genom att yrkesm&auml;ssigt bedriva jordbruk eller handelstr&auml;dg&aring;rd 
 enligt metoder som bygger p&aring; kunskap om och tillit till jorden egen 
 f&ouml;rm&aring;ga att f&ouml;rse en odling med n&ouml;dv&auml;ndiga v&auml;xtn&auml;rings&auml;mnen, 
 n&auml;r dess mikrobiologiska liv tillf&ouml;res vad det beh&ouml;ver 
 f&ouml;r en allsidig utveckling, samt att st&ouml;dja forskning inom detta 
 omr&aring;de.
+
+*bedriva betyder att företaget är etablerat, alltså inte nystartat. 
+Vi ser gärna att ansökan också skickas via mejl!*
 
 ## Kvinna och jord
 
