@@ -33,11 +33,16 @@ biologiskt riktiga &auml;r ocks&aring; i l&auml;ngden det mest ekonomiska&#148;
 
 ## Ans&ouml;kningar
 
-Ans&ouml;kningarna ska vara styrelsen tillhanda senast den 15 januari.
+Ansökan ska innehålla:
 
-<a href="/files/ansoknbl_fmj.pdf" class="btn">Ladda ner Ans&ouml;kningsformul&auml;r</a>
+* Namn, adress, mejladress; företagets namn och hemside-adress
+* Företagets art, storlek, areal, startår, grödor, djurslag m.m.
+* Till vad söks stipendium? kostnads - och tidskalkyl
+* Vad görs för att sprida information om ekologiskt lantbruk
+* Intyg om odlingens inriktning och betydelse från kontrollant eller rådgivare(telefonnr där intygslämnaren kan nås.)
+* Ev personlig historia om vägen till det ekologiska lantbruket.
 
-Fr&aring;gor besvaras p&aring; <a href="mailto:stipendium@fredmedjorden.se">stipendium@fredmedjorden.se</a>
+Ansökan skickas till <a href="mailto:stipendium@fredmedjorden.se">stipendium@fredmedjorden.se</a> och ska vara styrelsen tillhanda senast den 15 januari.
 
 ## De som s&ouml;ker forskningsstipendium:
 
