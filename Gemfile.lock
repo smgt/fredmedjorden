@@ -105,7 +105,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (12.0.0)
+    rake (12.3.3)
     rake-contrib (1.0.0)
       rake
     rb-fsevent (0.9.8)
