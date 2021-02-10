@@ -86,10 +86,10 @@ helpers do
 
   def stipendiat_year_tag(year)
     content_tag :h4 do
-      content_tag :span do
+      content_tag(:span) do
         year
-      end
-      content_tag(:a, :name => year) {}
+      end +
+      content_tag(:a, name: year.to_s) { "" }
     end
   end
 end
