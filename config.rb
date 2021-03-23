@@ -40,13 +40,12 @@
 
 helpers do
   def img_tag(opts={})
-
     opts = {
-      :width => nil,
-      :height => nil,
-      :label => nil,
-      :thumbnail => nil,
-      :class => ""
+      width: nil,
+      height: nil,
+      label:  nil,
+      thumbnail: nil,
+      class: ""
     }.merge!(opts)
 
     if opts[:size]
@@ -60,26 +59,18 @@ helpers do
     end
 
     content_tag :figure, :style=>figure_style, :class => opts[:class] do
-
-      if opts[:thumbnail]
-        content_tag :a, :href => opts[:image], :rel => "facybox" do
-          # tag :img, :src => opts[:thumbnail], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
-          image_tag opts[:thumbnail], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
-        end
-      else
-        # content_tag :img, :src => opts[:image], :alt => opts[:label], :title => opts[:label], :width => opts[:width], :height => opts[:height] do
-        # end
-        content_tag :span do
-          image_tag opts[:image], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
-        end
-      end
+      cont = ""
+      cont += content_tag :span do
+        image_tag opts[:image], :width => opts[:width], :height => opts[:height], :alt => opts[:label], :title => opts[:label]
+      end.to_s
 
       if opts[:label]
-        content_tag :figcaption do
+        cont += content_tag :figcaption do
           opts[:label]
         end
       end
 
+      cont
     end
 
   end
