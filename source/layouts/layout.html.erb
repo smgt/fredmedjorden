@@ -9,11 +9,8 @@
         <title><%= "#{current_page.data.title} - " if current_page.data.title %>Fred Med Jorden</title>
         <meta name="description" content="Stiftelsen FRED MED JORDEN skall stimulera och stödja personer, i första hand kvinnor, som yrkesmässigt driver jordbruk eller handelsträdgård">
         <meta name="viewport" content="width=device-width">
-        <script type="text/javascript" src="//use.typekit.net/wiw7xkf.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <%= favicon_tag 'favicon.ico' %>
-        <%= stylesheet_link_tag 'normalize','main','base','facybox' %>
-        <%= javascript_include_tag 'modernizr' %>
+        <%= stylesheet_link_tag 'normalize','main','base' %>
     </head>
     <body class="<%= current_page.data.body_class%>">
         <!--[if lt IE 7]>

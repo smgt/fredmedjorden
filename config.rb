@@ -104,13 +104,9 @@ end
 #   end
 # end
 
-activate :sprockets
 activate :directory_indexes
 
-set :js_dir, "js"
 set :css_dir, 'css'
-
-set :js_assets_paths, ["#{root}/components/", "#{root}/source/js/"]
 
 set :images_dir, 'images'
 
@@ -150,6 +146,6 @@ configure :build do
 end
 
 configure :development do
-  require "rack/livereload"
-  use Rack::LiveReload
+  #require "rack/livereload"
+  #use Rack::LiveReload
 end
